@@ -1,0 +1,20 @@
+{
+  "name": "aoc-2025",
+  "version": "1.0.0",
+  "description": "Advent of Code 2025 Solutions in TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node",
+    "watch": "tsc --watch",
+    "solve": "ts-node"
+  },
+  "keywords": ["advent-of-code", "typescript"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
