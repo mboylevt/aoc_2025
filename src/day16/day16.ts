@@ -1,16 +1,16 @@
-import { readInputLines } from '../utils/readInput';
+import { Solution } from '../utils/solution';
 
-function part1(input: string[]): number {
-  // TODO: Implement part 1 solution
-  return 0;
+class Day16 extends Solution<string[]> {
+  part1(): number {
+    // TODO: Implement part 1 solution
+    return 0;
+  }
+
+  part2(): number {
+    // TODO: Implement part 2 solution
+    return 0;
+  }
 }
 
-function part2(input: string[]): number {
-  // TODO: Implement part 2 solution
-  return 0;
-}
-
-// Main execution
-const input = readInputLines(16);
-console.log('Part 1:', part1(input));
-console.log('Part 2:', part2(input));
+// Run the solution
+new Day16(16).run();
