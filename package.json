@@ -7,13 +7,22 @@
     "build": "tsc",
     "dev": "ts-node",
     "watch": "tsc --watch",
-    "solve": "ts-node"
+    "solve": "ts-node",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
-  "keywords": ["advent-of-code", "typescript"],
+  "keywords": [
+    "advent-of-code",
+    "typescript"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/jest": "^30.0.0",
     "@types/node": "^22.10.5",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.6",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.3"
   }
